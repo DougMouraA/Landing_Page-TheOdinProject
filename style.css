@@ -1,0 +1,201 @@
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    margin: 0;
+    border-color: #1f2937;
+    box-sizing: border-box;
+}
+
+
+.footer, .subtext, .link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder ;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subtext {
+    width: 400px;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+}
+
+.button1 {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    border: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button2 {
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    border-color: white;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.text-quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+    width: 800px;
+    height: 200px;
+    margin: 0;
+}
+
+.quote figcaption {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    width: 800px;
+}
+
+.box, .button2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.main-goat {
+    max-height: 400px;
+    max-width: 400px;
+    flex-grow: 1;
+}
+
+.text {
+    white-space: normal;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.conteiner p {
+    margin-top: 0;
+}
+
+.conteiner {
+    vertical-align: middle;
+    height: 80px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* FLEXBOX */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.top {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin: 0;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 50px;
+}
+
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.goat {
+    margin: 0;
+    gap: 15px;
+}
+
+.img-goat {
+    text-align: center;
+    object-fit: contain;
+    width: 300px;
+    height: 400px;
+    padding-bottom: 30px;
+    gap: 10px
+}
+
+.goat figcaption {
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    margin: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 5px;
+    padding: 30px;
+}

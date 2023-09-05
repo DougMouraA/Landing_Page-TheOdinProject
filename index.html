@@ -2,63 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="body">
+
+    </div>
     <div class="header">
-        <div class="logo">Header Logo</div>
-        <div class="list-link">
-            <ul>
-                <li><a href="link">header link one</a></li>
-                <li><a href="link">header link two</a></li>
-                <li><a href="link">header link three</a></li>
-            </ul>
-        </div>
-        <div class="first-main">
-            <h1>This website is awsome</h1>
-            <p>
+        <div class="left">
+            <div class="logo top">Header Logo</div>
+            <h1 class="text">This website is awsome</h1>
+            <p class="text subtext">
                 This website has some subtext that goes here under
                 the main title. It1s a smaler font and the color is lower
                 contrast.
             </p>
-            <img src="./image/alex-lvrs-1WOY5Pj1KqU-unsplash.jpg" 
-                    alt="A goat" width="136" height="200">
             <button class="button1">Sign up</button>
         </div>
-        <div class="second-main">
-            <h2>Some random information.</h2>
-            <div class="img">
-                <figure>
-                    <img src="./image/bailey-mahon-AlfgSap679Y-unsplash.jpg" alt="goat"
-                    width="136" height="136">
-                    <figcaption>
-                        this is some subtext under an ilustration or image
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./image/florian-van-duyn-J9wZ6D2kYPw-unsplash.jpg" alt="goat"
-                    width="136" height="136">
-                    <figcaption>
-                        this is some subtext under an ilustration or image
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./image/maxime-agnelli-bhD6TGRjnWc-unsplash.jpg" alt="goat"
-                    width="136" height="136">
-                    <figcaption>
-                        this is some subtext under an ilustration or image
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./image/nandhu-kumar-jAMcUbsTvWE-unsplash.jpg" alt="goat"
-                    width="136" height="136">
-                    <figcaption>
-                        this is some subtext under an ilustration or image
-                    </figcaption>
-                </figure>
-            </div>
+        <div class="right">
+                <ul class="list top">
+                    <li><a class="link" href="link">header link one</a></li>
+                    <li><a class="link" href="link">header link two</a></li>
+                    <li><a class="link" href="link">header link three</a></li>
+                </ul>
+            <img class="main-goat" src="./image/pexels-sippakorn-yamkasikorn-3682114.jpg" 
+                    alt="A goat">
         </div>
+    </div>
+    <div class="random-information">
+        <h2>Some random information.</h2>
+        <div class="img">
+            <figure class="goat" >
+                <img class="img-goat" src="./image/bailey-mahon-AlfgSap679Y-unsplash.jpg" alt="goat">
+                <figcaption>
+                    this is some subtext under an ilustration or image
+                </figcaption>
+            </figure>
+            <figure class="goat"  >
+                <img  class="img-goat" src="./image/florian-van-duyn-J9wZ6D2kYPw-unsplash.jpg" alt="goat">
+                <figcaption>
+                    this is some subtext under an ilustration or image
+                </figcaption>
+            </figure>
+            <figure  class="goat" >
+                <img class="img-goat" src="./image/maxime-agnelli-bhD6TGRjnWc-unsplash.jpg" alt="goat">
+                <figcaption>
+                    this is some subtext under an ilustration or image
+                </figcaption>
+            </figure>
+            <figure  class="goat" >
+                <img  class="img-goat" src="./image/nandhu-kumar-jAMcUbsTvWE-unsplash.jpg" alt="goat">
+                <figcaption>
+                    this is some subtext under an ilustration or image
+                </figcaption>
+            </figure>
+        </div>
+        </div>
+    </div>
+    <div class="quote">
+        <p class="text-quote">
+            This is an inspiring quote, or a testimonial form a customer.
+            Maybe it's just filling up space, or maybe people will actuly
+            read ir.. Who knows? All i know is that it looks nice.
+        </p>
+        <figcaption class="thor">-Thor, god od Thunder</figcaption>
+    </div>
+    <div class="box">
+        <div class="conteiner">
+            <h3>Call to action! It's time!</h3>
+            <p>Sing up for our product by cliking that buttom right
+                over there!
+            </p>
+        </div>
+        <button class="button2">Sing up</button>
+    </div>
+    <div class="footer">
+        <p>Copyright ® The Odin Project 2023</p>
     </div>
 </body>
 </html>
